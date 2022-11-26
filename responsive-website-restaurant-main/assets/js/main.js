@@ -38,20 +38,20 @@ function scrollTop(){
 }
 window.addEventListener('scroll', scrollTop)
 
-
-
 var modal;
 
 var btn;
 
 var span = document.getElementsByClassName("close")[0];
 
-btn.onclick = function() {
-  modal.style.display = "block";
+function modalOnClick() {
+    var modal = document.getElementById("myModal");
+    modal.style.display = "block";
 }
 
-span.onclick = function() {
-  modal.style.display = "none";
+function spanOnClick() {
+    var modal = document.getElementById("myModal");
+    modal.style.display = "none";
 }
 
 window.onclick = function(event) {
