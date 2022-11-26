@@ -53,6 +53,43 @@
   }
 }
 
+.nav__list {
+  display: none
+}
+
+/* Rectangle 8919 */
+
+.title {
+  /* Euclid's Cafe */
+
+
+  position: absolute;
+  left: 45.83%;
+  right: 44.47%;
+  top: 0%;
+  bottom: 63.22%;
+
+  font-family: 'Abhaya Libre SemiBold';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+
+  color: #FFFFFF;
+}
+
+.menu {
+  position: absolute;
+  width: 1920px;
+  height: 950px;
+  left: 0px;
+  top: 0px;
+
+  background: grey;
+
+
+}
+
 body {
   background-color: black;
 }
