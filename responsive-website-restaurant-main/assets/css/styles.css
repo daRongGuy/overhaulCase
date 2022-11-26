@@ -53,10 +53,10 @@
   }
 }
 
-.nav__list {
+/* .nav__list {
   display: none
 }
-
+ */
 /* Rectangle 8919 */
 
 .title {
@@ -78,7 +78,7 @@
   color: #FFFFFF;
 }
 
-.menu {
+/* .menu {
   position: absolute;
   width: 1920px;
   height: 950px;
@@ -92,7 +92,7 @@
 
 body {
   background-color: black;
-}
+} */
 
 .modal {
   display: none;
